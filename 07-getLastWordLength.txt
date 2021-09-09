@@ -1,0 +1,12 @@
+const str = '';
+const countSecondLast = (str = '') => {
+   const strArr = str.split(' ');
+   const { length: len } = strArr;
+   if(len <= 2){
+      return 0;
+   };
+   const el = strArr[len - 1];
+   const { length } = el;
+   return length;
+};
+console.log(countSecondLast(str));

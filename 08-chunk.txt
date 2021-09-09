@@ -1,0 +1,14 @@
+const result1 = chunk(['a', 'b', 'c', 'd'], 2);
+console.log(result1)
+
+const result2 = chunk(['a', 'b', 'c', 'd'], 3);
+console.log(result2)
+
+const result3 = chunk([], 4);
+console.log(result3)
+
+const result4 = chunk(['a'], 2);
+console.log(result4)
+
+const result5 = chunk(['a', 'b', 'c', 'd', 'e', 'f'], 2);
+console.log(result5)

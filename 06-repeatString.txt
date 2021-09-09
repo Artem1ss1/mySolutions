@@ -1,0 +1,4 @@
+const str = 'zpgl';
+const str1 = 'Nyffs';
+repeatString(str)
+repeatString(str1)

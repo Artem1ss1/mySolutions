@@ -1,0 +1,7 @@
+console.log(trimSymbols('xxx', 1))
+console.log(trimSymbols('xxxaaaaab', 1))
+console.log(trimSymbols('eedaaad', 2))
+console.log(trimSymbols('xxxaxxx', 2))
+console.log(trimSymbols('', 2))
+console.log(trimSymbols('accbbdd', 0))
+console.log(trimSymbols('aaa'))

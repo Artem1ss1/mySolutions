@@ -1,0 +1,9 @@
+function largestPairSum(numbers) {
+    numbers.sort((a, b) => b - a);
+
+    return numbers[0] + numbers[1];
+}
+
+console.log(largestPairSum([1, 2, 3, 5, 12]));
+console.log(largestPairSum([12, 32, 14, 22]));
+console.log(largestPairSum([-3, -123, -12, -1]));
